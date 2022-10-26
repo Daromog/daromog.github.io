@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: Fira Sans, Helvetica, Arial, sans-serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid rgb(255, 253, 253);
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+section ul {
+    padding: 0;
+    
+}
+
+section li {
+    margin-left: 20px;
+    display: inline;
+}
+
+section {
+    height: 50vh;
+    border: 1px solid rgb(231, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero  {
+    height: auto;
+    border: 0px solid rgb(255, 253, 253);
+}
+
+#about  {
+    height: auto;
+    border: 0px solid rgb(255, 253, 253);
+}
+
+#contact {
+    background-color: rgb(255, 253, 253);
+    height: auto;
+    display: block;
+}
+
+.social-icon {
+    color:rgba(13, 131, 249, 0.667);
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Add everything below here */
+
+#hero h1 {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+#about .profile-img{
+    display: inline;
+    width: 230px;
+    border-radius: 20%; /* Add this line */
+    float:right;
+    padding: 20px;
+    margin-right: 140px;
+}
+
+#contact .paper-img{
+    display: inline;
+    width: 10%;
+    height: 110px;
+    float:left;
+    margin-left: 13%;
+}
+
+section h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 13%;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+#about p{
+    line-height: 1.4; 
+    margin-left: 200px;
+    margin-right: 400px;
+    color: rgb(146, 145, 145);
+    text-align: justify;
+    border-left: 4px solid red;
+}
+
+#contact p{
+    margin-left: 24%;
+    margin-right: 30%;
+    color: rgb(146, 145, 145);
+    text-align: justify;
+    font-size: 16px;
+}
+
+#contact h2{
+    font-size: 17px;
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(159, 158, 158);
+}
+
+
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+#contact .papers{
+    height: 50%;
+}
+
+
