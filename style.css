@@ -139,5 +139,39 @@ section a {
     height: 50%;
 }
 
+.section-inner {
+    width: 100%;
+}
+
+.date-box {
+    background-color: #2d72b8;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 0px; /* No space between date and text */
+    flex-shrink: 0; /* Prevent shrinking of the date box */
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 13%;  /* Align the boxes and text together with the heading */
+    width: auto;
+    font-size: 13px;
+}
+
+.news-text {
+    font-size: 13px;
+    margin-left: 10px; /* Slight margin between date and text */
+}
+
+#talks {
+    padding: 0;  /* Remove any extra padding */
+    margin-bottom: 10px;  /* Reduce bottom margin */
+}
 
 
