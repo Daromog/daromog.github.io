@@ -50,7 +50,13 @@ section {
     border: 0px solid rgb(255, 255, 255);
 }
 
-#contact {
+#news_section {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: block;
+}
+
+#papers_section {
     background-color: rgb(255, 255, 255);
     height: auto;
     display: block;
@@ -72,7 +78,32 @@ footer {
 #hero h1 {
     font-size: 34px;
     font-weight: normal;
+    text-align: center;
 }
+#hero h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: rgba(13, 131, 249, 0.667);
+}
+
+#news_section h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 13%;
+
+}
+
+#papers_section h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 13%;
+
+}
+
+
 
 #about .profile-img{
     display: inline;
@@ -83,20 +114,20 @@ footer {
     margin-right: 140px;
 }
 
-#contact .paper-img{
+#papers_section .paper-img{
     display: inline;
-    width: 10%;
-    height: 110px;
     float:left;
     margin-left: 13%;
 }
-
+    
+/*
 section h2 {
     font-size: 25px;
     font-weight: normal;
     text-align: left;
     margin-left: 13%;
 }
+*/
 
 section h3 {
     font-size: 1.5em;
@@ -111,23 +142,42 @@ section h3 {
     border-left: 4px solid red;
 }
 
+#papers_section p{
+    text-align: left;
+    margin-left: 13%;
+    
+}
+
+#papers_section a{
+    margin-left: 1%;
+
+}
+
+
+/*
 #contact p{
-    margin-left: 24%;
-    margin-right: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
     color: rgb(116, 116, 116);
     text-align: justify;
     font-size: 16px;
 }
+*/
 
-#contact h2{
-    font-size: 17px;
+
+#about h2{
+    text-align: left;
+    margin-left: 13%;
 }
 
+
+/*
 section a {
+    margin-left: 1%;
     text-decoration: none;
     color: rgb(159, 158, 158);
 }
-
+*/
 
 .divider {
     height: 1px;
@@ -135,13 +185,12 @@ section a {
     background-color: #e0e0e0;
 }
 
-#contact .papers{
-    height: 50%;
-}
+
 
 .section-inner {
     width: 100%;
 }
+
 
 .date-box {
     background-color: #2d72b8;
@@ -155,6 +204,7 @@ section a {
     flex-shrink: 0; /* Prevent shrinking of the date box */
 }
 
+
 .news-item {
     display: flex;
     align-items: center;
@@ -164,14 +214,10 @@ section a {
     font-size: 13px;
 }
 
+
 .news-text {
     font-size: 13px;
-    margin-left: 10px; /* Slight margin between date and text */
+    width: 100%; 
+    text-align: left;
+    margin-left: 1%;
 }
-
-#talks {
-    padding: 0;  /* Remove any extra padding */
-    margin-bottom: 10px;  /* Reduce bottom margin */
-}
-
-
